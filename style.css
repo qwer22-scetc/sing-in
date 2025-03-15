@@ -3,9 +3,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box ;
   font-family: "Poppins", sans-serif;
 }
+
 a {
   text-decoration: none;
 }
@@ -41,14 +42,34 @@ a {
 }
 .nav_link:hover {
   color: #d9d9d9;
+
 }
+
+.imag-img {
+  height: 30px;
+  width: 100px;
+  transition: all 0.8s ease;
+}
+
+.imag-img:hover{
+  transform: scale(1.1);
+}
+
 .button {
   padding: 6px 24px;
-  border: 2px solid #fff;
+  border: none;
   background: transparent;
   border-radius: 6px;
   cursor: pointer;
+  height: 52px;
+  width: 120px;
+  transition: all 0.8s ease;
 }
+
+.button:hover {
+  transform: scale(1.1);
+}
+
 .button:active {
   transform: scale(0.98);
 }
@@ -58,7 +79,7 @@ a {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url("bg.jpg");
+  background-image: url(".vscode/pixel-art-chat-icon_735839-51.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -199,4 +220,19 @@ a {
   font-size: 12px;
   text-align: center;
   margin-top: 15px;
+}
+
+.image-img {
+  height: 52px;
+  width: 100px;
+}
+
+.pic {
+  height: 40px;
+  width: 150px;
+  transition: all 0.8s ease;
+}
+
+.pic:hover {
+  transform: scale(1.1);
 }
